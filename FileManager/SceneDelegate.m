@@ -20,7 +20,7 @@
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.windowScene = (UIWindowScene *)scene;
-    FileManagerController *nameVC = [[FileManagerController alloc] initWithFolderPath:@"/Users/mikhail/Documents"];
+    FileManagerController *nameVC = [[FileManagerController alloc] initWithFolderPath:@"/your path/macbook"];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:nameVC];
     [self.window makeKeyAndVisible];
 }
